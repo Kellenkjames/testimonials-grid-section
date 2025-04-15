@@ -1,0 +1,30 @@
+// Typography Mixins
+@mixin heading-lg {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+@mixin heading-md {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+@mixin body-text {
+  font-size: $font-body-size;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+// Utility Mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin responsive-grid {
+  display: grid;
+  gap: $space-md;
+}
