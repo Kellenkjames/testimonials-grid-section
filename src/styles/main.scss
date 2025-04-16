@@ -1,5 +1,9 @@
+// Core
+@import 'reset';
 @import 'variables';
 @import 'mixins';
 @import 'typography';
 @import 'layout';
-@import 'components';
+
+// Component Partials
+@import 'partials/testimonials';
