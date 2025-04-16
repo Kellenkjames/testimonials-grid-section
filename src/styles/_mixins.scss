@@ -1,20 +1,32 @@
+@import 'typography';
+
+// REM Conversion Note:
+// 1rem = 10px (due to html { font-size: 62.5% })
+// → Use rem = px ÷ 10 for all font-size conversions
+
 // Typography Mixins
-@mixin heading-lg {
-  font-size: 1.5rem;
-  line-height: 1.8;
-  font-weight: 600;
+@mixin text-preset-1 {
+  font-weight: $font-weight-semibold;
+  font-size: 2rem; // 20px
+  line-height: 120%;
 }
 
-@mixin heading-md {
-  font-size: 1.25rem;
-  line-height: 1.6;
-  font-weight: 600;
+@mixin text-preset-2 {
+  font-weight: $font-weight-medium;
+  font-size: 1.3rem; // 13px
+  line-height: 1.1;
 }
 
-@mixin body-text {
-  font-size: $font-body-size;
-  line-height: 1.6;
-  font-weight: 500;
+@mixin text-preset-3 {
+  font-weight: $font-weight-medium;
+  font-size: 1.3rem; // 13px
+  line-height: 1.4;
+}
+
+@mixin text-preset-4 {
+  font-weight: $font-weight-medium;
+  font-size: 1.1rem; // 11px
+  line-height: 1.1;
 }
 
 // Utility Mixins
