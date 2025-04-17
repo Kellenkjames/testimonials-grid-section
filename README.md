@@ -21,8 +21,6 @@ This project builds a responsive **Testimonials Grid Section** using CSS Grid, b
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![Desktop screenshot](./assets/images/screenshots/desktop_screenshot.png) | ![Mobile screenshot](./assets/images/screenshots/mobile_screenshot.png) |
 
-> 📸 _Screenshots to be added after initial build and polish_
-
 ## Folder Structure
 
 testimonials-grid-section/ ├── index.html # Main HTML file ├── style.css # Compiled CSS output ├── src/ │ └── styles/ # SCSS source files (partials + main.scss) ├── assets/ │ ├── images/ # Optimized project images (e.g., avatars) │ └── screenshots/ # Final project screenshots (desktop, mobile) ├── README.md └── style-guide.md # Provided by Frontend Mentor
@@ -62,5 +60,3 @@ testimonials-grid-section/ ├── index.html # Main HTML file ├── style
 - Total Estimated Time: ~6–9 hours
 
 ---
-
-This project is part of an ongoing learning journey focused on mastering frontend fundamentals and real-world layout challenges. 🎯
