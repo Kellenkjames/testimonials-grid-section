@@ -254,8 +254,24 @@ p {
   .testimonials {
     grid-template-columns: 1fr;
   }
-  .testimonials__card--a, .testimonials__card--b, .testimonials__card--c, .testimonials__card--d, .testimonials__card--e {
+  .testimonials__card--a {
     grid-column: 1/-1;
-    grid-row: auto;
+    grid-row: 1;
+  }
+  .testimonials__card--b {
+    grid-column: 1/-1;
+    grid-row: 2;
+  }
+  .testimonials__card--d {
+    grid-column: 1/-1;
+    grid-row: 3;
+  }
+  .testimonials__card--e {
+    grid-column: 1/-1;
+    grid-row: 4;
+  }
+  .testimonials__card--c {
+    grid-column: 1/-1;
+    grid-row: 5;
   }
 }/*# sourceMappingURL=main.css.map */

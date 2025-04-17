@@ -154,13 +154,25 @@
     grid-template-columns: 1fr;
 
     &__card {
-      &--a,
-      &--b,
-      &--c,
-      &--d,
+      &--a {
+        grid-column: 1 / -1;
+        grid-row: 1;
+      }
+      &--b {
+        grid-column: 1 / -1;
+        grid-row: 2;
+      }
+      &--d {
+        grid-column: 1 / -1;
+        grid-row: 3;
+      }
       &--e {
         grid-column: 1 / -1;
-        grid-row: auto;
+        grid-row: 4;
+      }
+      &--c {
+        grid-column: 1 / -1;
+        grid-row: 5;
       }
     }
   }
