@@ -11,9 +11,8 @@ This project builds a responsive **Testimonials Grid Section** using CSS Grid, b
 ## Technologies Used
 
 - HTML5
-- CSS3 (CSS Grid, Media Queries)
+- CSS3 (CSS Grid, Flexbox, Media Queries)
 - SCSS (Variables, Mixins, Nesting, Partials) – [SASS Docs](https://sass-lang.com/documentation)
-- Bootstrap (for optional utility classes or rapid prototyping) – [Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 ## Screenshots
 
