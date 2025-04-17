@@ -11,23 +11,19 @@
   &__card {
     // shared card styles
     border: 1px solid $black;
+    position: relative;
 
     /* Auto layout */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 32px;
-    gap: 16px;
-    isolation: isolate;
+    padding: $space-400;
+    gap: $space-200;
 
-    width: 540px;
-    height: 288px;
-
-    background: #733fc8;
     /* Drop Shadow */
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
-    border-radius: 8px;
+    border-radius: $space-100;
 
     /* Inside auto layout */
     flex: none;
