@@ -4,11 +4,9 @@ html {
 }
 
 body {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  color: hsl(219, 29%, 14%);
-  line-height: 1.6;
+  margin: 0;
+  color: hsl(0, 0%, 7%);
+  font-size: 1.3rem;
 }
 
 h1 {
@@ -24,22 +22,19 @@ h3 {
 }
 
 p {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.6;
-  margin-bottom: 1rem;
 }
 
 .small-text {
   font-size: 1.1rem;
-  color: hsl(224, 10%, 45%);
   line-height: 1.4;
 }
 
 .quote {
   font-style: italic;
   font-weight: 500;
-  color: hsl(217, 19%, 35%);
 }
 
 html {
@@ -48,11 +43,9 @@ html {
 }
 
 body {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  color: hsl(219, 29%, 14%);
-  line-height: 1.6;
+  margin: 0;
+  color: hsl(0, 0%, 7%);
+  font-size: 1.3rem;
 }
 
 h1 {
@@ -68,22 +61,63 @@ h3 {
 }
 
 p {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.6;
-  margin-bottom: 1rem;
 }
 
 .small-text {
   font-size: 1.1rem;
-  color: hsl(224, 10%, 45%);
   line-height: 1.4;
 }
 
 .quote {
   font-style: italic;
   font-weight: 500;
-  color: hsl(217, 19%, 35%);
+}
+
+main {
+  max-width: 111.4rem;
+  margin: 22.9rem auto 21.8rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: hsl(0, 0%, 7%);
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.small-text {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 500;
 }
 
 .testimonials {
@@ -92,7 +126,25 @@ p {
   gap: 3.2rem;
 }
 .testimonials__card {
-  border: 1px solid black;
+  border: 1px solid hsl(0, 0%, 7%);
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 16px;
+  isolation: isolate;
+  width: 540px;
+  height: 288px;
+  background: #733fc8;
+  /* Drop Shadow */
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .testimonials__card--a {
   grid-column: 1/span 2;
