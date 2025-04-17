@@ -71,6 +71,17 @@ p {
 main {
   max-width: 111.4rem;
   margin: 22.9rem auto 21.8rem;
+  padding: 0 5%;
+}
+@media (max-width: 1024px) {
+  main {
+    margin: 10rem auto;
+  }
+}
+@media (max-width: 600px) {
+  main {
+    margin: 8rem auto;
+  }
 }
 
 html {
@@ -220,19 +231,21 @@ p {
   }
   .testimonials__card--a {
     grid-column: 1/-1;
+    grid-row: 1;
   }
   .testimonials__card--b {
     grid-column: 1/2;
-  }
-  .testimonials__card--c {
-    grid-column: 2/3;
     grid-row: 2;
   }
   .testimonials__card--d {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .testimonials__card--e {
     grid-column: 1/-1;
     grid-row: 3;
   }
-  .testimonials__card--e {
+  .testimonials__card--c {
     grid-column: 1/-1;
     grid-row: 4;
   }

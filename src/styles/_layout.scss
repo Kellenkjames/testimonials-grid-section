@@ -1,4 +1,13 @@
 main {
   max-width: 111.4rem;
   margin: 22.9rem auto 21.8rem;
+  padding: 0 5%;
+
+  @media (max-width: 1024px) {
+    margin: 10rem auto;
+  }
+
+  @media (max-width: 600px) {
+    margin: 8rem auto;
+  }
 }

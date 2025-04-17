@@ -127,19 +127,21 @@
     &__card {
       &--a {
         grid-column: 1 / -1;
+        grid-row: 1;
       }
       &--b {
         grid-column: 1 / 2;
-      }
-      &--c {
-        grid-column: 2 / 3;
         grid-row: 2;
       }
       &--d {
+        grid-column: 2 / 3;
+        grid-row: 2;
+      }
+      &--e {
         grid-column: 1 / -1;
         grid-row: 3;
       }
-      &--e {
+      &--c {
         grid-column: 1 / -1;
         grid-row: 4;
       }
