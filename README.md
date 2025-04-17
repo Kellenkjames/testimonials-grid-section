@@ -17,9 +17,9 @@ This project builds a responsive **Testimonials Grid Section** using CSS Grid, b
 
 ## Screenshots
 
-| Desktop View                                                       | Mobile View                                                      |
-| ------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| ![Desktop screenshot](./assets/screenshots/desktop_screenshot.png) | ![Mobile screenshot](./assets/screenshots/mobile_screenshot.png) |
+| Desktop View                                                              | Mobile View                                                             |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![Desktop screenshot](./assets/images/screenshots/desktop_screenshot.png) | ![Mobile screenshot](./assets/images/screenshots/mobile_screenshot.png) |
 
 > 📸 _Screenshots to be added after initial build and polish_
 
