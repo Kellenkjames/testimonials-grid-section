@@ -10,22 +10,17 @@ body {
   background: #f6f5f6;
 }
 
-h1 {
-  font-size: 2.4rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.8rem;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
 p {
   font-size: 1.3rem;
   font-weight: 500;
-  line-height: 1.6;
+  margin: 0;
 }
 
 .small-text {
@@ -50,22 +45,17 @@ body {
   background: #f6f5f6;
 }
 
-h1 {
-  font-size: 2.4rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.8rem;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
 p {
   font-size: 1.3rem;
   font-weight: 500;
-  line-height: 1.6;
+  margin: 0;
 }
 
 .small-text {
@@ -95,22 +85,17 @@ body {
   background: #f6f5f6;
 }
 
-h1 {
-  font-size: 2.4rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.8rem;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
 p {
   font-size: 1.3rem;
   font-weight: 500;
-  line-height: 1.6;
+  margin: 0;
 }
 
 .small-text {
@@ -129,7 +114,6 @@ p {
   gap: 3.2rem;
 }
 .testimonials__card {
-  border: 1px solid hsl(0, 0%, 7%);
   position: relative;
   /* Auto layout */
   display: flex;
@@ -141,13 +125,22 @@ p {
   /* Drop Shadow */
   box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
   border-radius: 0.8rem;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .testimonials__card--a {
   grid-column: 1/span 2;
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+  z-index: 10;
+}
+.testimonials__card--a::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  background: url("../../../assets/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 .testimonials__card--b {
   grid-column: 3/4;
@@ -163,6 +156,47 @@ p {
 .testimonials__card--e {
   grid-column: 2/span 2;
   grid-row: 2;
+}
+.testimonials__profile {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.testimonials__profile img {
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  border: 2px solid #a775f1;
+}
+.testimonials__user {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.testimonials__name {
+  margin-bottom: 0.4rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.1;
+}
+.testimonials__status {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.1;
+}
+.testimonials__title {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 120%;
+}
+.testimonials__quote {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
 
 @media (max-width: 1024px) {

@@ -10,8 +10,10 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | [Testimonials Grid Section]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&display=swap"
       rel="stylesheet"
     />
     <link href="src/styles/main.css" rel="stylesheet" />
@@ -19,9 +21,31 @@
   <body>
     <main class="testimonials">
       <article class="testimonials__card testimonials__card--a">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-          earum facere repudiandae veniam a tempora sapiente.
+        <header class="testimonials__profile">
+          <img
+            src="./assets/images/image-daniel.jpg"
+            alt="Daniel Clifford"
+            class="testimonials__avatar"
+          />
+          <div class="testimonials__user">
+            <h3 class="testimonials__name">Daniel Clifford</h3>
+            <p class="testimonials__status">Verified Graduate</p>
+          </div>
+        </header>
+
+        <h4 class="testimonials__title">
+          I received a job offer mid-course, and the subjects I learned were
+          current, if not more so, in the company I joined.
+        </h4>
+
+        <p class="testimonials__quote">
+          “ I was an EMT for many years before I joined the bootcamp. I’ve been
+          looking to make a transition and have heard some people who had an
+          amazing experience here. I signed up for the free intro course and
+          found it incredibly fun! I enrolled shortly thereafter. The next 12
+          weeks was the best—and most grueling—time of my life. Since completing
+          the course, I’ve successfully switched careers, working as a Software
+          Engineer at a VR startup. ”
         </p>
       </article>
 
