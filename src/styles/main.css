@@ -74,7 +74,7 @@ p {
 
 main {
   max-width: 111.4rem;
-  margin: 22.9rem auto 21.8rem;
+  margin: 22.9rem auto 10rem;
   padding: 0 5%;
 }
 @media (max-width: 1024px) {
