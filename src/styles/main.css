@@ -23,14 +23,16 @@ p {
   margin: 0;
 }
 
-.small-text {
-  font-size: 1.1rem;
-  line-height: 1.4;
-}
-
-.quote {
-  font-style: italic;
-  font-weight: 500;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 html {
@@ -58,14 +60,16 @@ p {
   margin: 0;
 }
 
-.small-text {
-  font-size: 1.1rem;
-  line-height: 1.4;
-}
-
-.quote {
-  font-style: italic;
-  font-weight: 500;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 main {
@@ -109,14 +113,16 @@ p {
   margin: 0;
 }
 
-.small-text {
-  font-size: 1.1rem;
-  line-height: 1.4;
-}
-
-.quote {
-  font-style: italic;
-  font-weight: 500;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .testimonials {
