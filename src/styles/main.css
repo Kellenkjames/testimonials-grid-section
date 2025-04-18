@@ -157,7 +157,7 @@ p {
   right: 6rem;
   width: 104px;
   height: 102px;
-  background: url("../assets/images/bg-pattern-quotation.svg") no-repeat;
+  background: url("/assets/images/bg-pattern-quotation.svg") no-repeat;
   background-size: contain;
   z-index: -1;
 }
