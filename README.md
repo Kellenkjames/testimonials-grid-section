@@ -22,7 +22,7 @@ This project builds a responsive **Testimonials Grid Section** using CSS Grid, b
 
 ## Folder Structure
 
-testimonials-grid-section/ ├── index.html # Main HTML file ├── style.css # Compiled CSS output ├── src/ │ └── styles/ # SCSS source files (partials + main.scss) ├── assets/ │ ├── images/ # Optimized project images (e.g., avatars) │ └── screenshots/ # Final project screenshots (desktop, mobile) ├── README.md └── style-guide.md # Provided by Frontend Mentor
+testimonials-grid-section/ ├── index.html # Main HTML file ├── style.css # Compiled CSS output ├── src/ │ └── styles/ # SCSS source files (partials + main.scss) ├── assets/ │ ├── images/ # Optimized project images (e.g., avatars) │ └── screenshots/ # Final project screenshots (desktop, mobile) ├── README.md └── style-guide.md
 
 ## Getting Started
 
